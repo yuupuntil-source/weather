@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 import os
-API_KEY = st.secrets[ "a28fdaaede7bbebbf0ba557001b892c2"]
+API_KEY ="a28fdaaede7bbebbf0ba557001b892c2"
 
 
 st.set_page_config(
