@@ -10,9 +10,8 @@ st.set_page_config(
 
 st.title('國際氣候資料中心')
 st.header('全球氣候數據整合與分析平台')
-if st.button("start"):
-    st.info('請在以下欄位選擇一個國家以開始進行查詢')
-    c = st.selectbox('國家', ['馬來西亞', '英國', '中華民國','韓國','日本','北韓','印度','新加坡','印尼','越南','土耳其'])
+st.info('請在以下欄位選擇一個國家以開始進行查詢')
+c = st.selectbox('國家', ['馬來西亞', '英國', '中華民國','韓國','日本','北韓','印度','新加坡','印尼','越南','土耳其'])
 # data of the city
 singapore_cities = [
     "Singapore,SG"
