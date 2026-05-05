@@ -7,7 +7,7 @@ st.set_page_config(
     page_title='國際氣候資料中心',
     page_icon='🌍'
 )
-
+c='none'
 st.title('國際氣候資料中心')
 st.header('全球氣候數據整合與分析平台')
 st.info('請在以下欄位選擇一個國家以開始進行查詢')
