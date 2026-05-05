@@ -1,5 +1,6 @@
 import requests
-import streamlit as 
+import streamlit as st
+import os
 API_KEY = st.secrets[ "a28fdaaede7bbebbf0ba557001b892c2"]
 
 
