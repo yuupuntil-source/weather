@@ -1,7 +1,7 @@
 import requests
-import streamlit as st
+import streamlit as 
+API_KEY = st.secrets[ "a28fdaaede7bbebbf0ba557001b892c2"]
 
-API_KEY = "a28fdaaede7bbebbf0ba557001b892c2"
 
 st.set_page_config(
     page_title='國際氣候資料中心',
